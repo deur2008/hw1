@@ -11,9 +11,8 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textSize="25sp"
-        tools:text="@string/sex" />
+        android:text="@string/sex"
+        android:textSize="25sp" />
 
     <EditText
         android:id="@+id/edtSex"

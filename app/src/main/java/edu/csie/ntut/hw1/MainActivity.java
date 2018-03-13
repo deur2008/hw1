@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView mTxtR;
     private Button mBtnOK;
 
+    private String strSug,printOut;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,11 +24,10 @@ public class MainActivity extends AppCompatActivity {
         mTxtR = (TextView) findViewById(R.id.txtR);
         mBtnOK = (Button) findViewById(R.id.btnOK);
 
+        strSug = getString(R.string.suggestion);
         mBtnOK.setOnClickListener(btnOkOnClick);
-
     }
 
-    String strSug = getString(R.string.suggestion);
 
     private View.OnClickListener btnOkOnClick = new View.OnClickListener() {
         @Override
@@ -41,20 +41,30 @@ public class MainActivity extends AppCompatActivity {
             else if (strSex.equals(female))
                 AgeRange(28, 32);
             else
-                strSug += getString(R.string.input_error);
-            mTxtR.setText(strSug);
+                printOut = getString(R.string.input_error);
+
+            mTxtR.setText(printOut);
         }
     };
 
-    void AgeRange(int not_hurry, int get_married) {
-        int inputAge = Integer.parseInt(mEdtAge.getText().toString());
+    private void AgeRange(int not_hurry, int get_married) {
 
-        if (inputAge < not_hurry)
-            strSug += getString(R.string.not_hurry);
-        else if (inputAge > get_married)
-            strSug += getString(R.string.get_married);
-        else
-            strSug += getString(R.string.find_couple);
+        //int inputAge = Integer.parseInt(mEdtAge.getText().toString());
+        String inputAge = mEdtAge.getText().toString();
+        try {
+            int num = Integer.parseInt(inputAge);
+
+            if (num < not_hurry)
+                printOut = strSug+getString(R.string.not_hurry);
+            else if (num > get_married)
+                printOut = strSug+getString(R.string.get_married);
+            else
+                printOut = strSug+getString(R.string.find_couple);
+        }
+        catch (NumberFormatException e)
+        {
+            printOut = getString(R.string.input_error);
+        }
 
     }
 }
