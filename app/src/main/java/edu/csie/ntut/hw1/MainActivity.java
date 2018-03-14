@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Toast toast = Toast.makeText(this, "Toast置中顯示", Toast.LENGTH_LONG);
         mEdtSex = (EditText) findViewById(R.id.edtSex);
         mEdtAge = (EditText) findViewById(R.id.edtAge);
         mTxtR = (TextView) findViewById(R.id.txtR);
@@ -41,7 +44,11 @@ public class MainActivity extends AppCompatActivity {
             else if (strSex.equals(female))
                 AgeRange(28, 32);
             else
-                printOut = getString(R.string.input_error);
+            {
+                printOut = strSug;
+                Toast.makeText(v.getContext(),  getString(R.string.input_error_sex), Toast.LENGTH_SHORT).show();
+            }
+
 
             mTxtR.setText(printOut);
         }
@@ -63,7 +70,8 @@ public class MainActivity extends AppCompatActivity {
         }
         catch (NumberFormatException e)
         {
-            printOut = getString(R.string.input_error);
+            printOut = strSug;
+            Toast.makeText(this, getString(R.string.input_error_age), Toast.LENGTH_SHORT).show();
         }
 
     }
