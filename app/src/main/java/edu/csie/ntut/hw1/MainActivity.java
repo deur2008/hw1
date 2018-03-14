@@ -36,12 +36,10 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             String strSex = mEdtSex.getText().toString();
-            String male = getString(R.string.male);
-            String female = getString(R.string.female);
 
-            if (strSex.equals(male))
+            if (strSex.equals(getString(R.string.male))||strSex.equals(getString(R.string.male_ch)))
                 AgeRange(30, 35);
-            else if (strSex.equals(female))
+            else if (strSex.equals(getString(R.string.female))||strSex.equals(getString(R.string.female_ch)))
                 AgeRange(28, 32);
             else
             {

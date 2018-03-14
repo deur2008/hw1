@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">HW#2:黃子洋</string>
     <string name="sex">性別(sex)</string>
-    <string name="sex_hint">（輸入性別）【male/female】</string>
+    <string name="sex_hint">（輸入性別）</string>
     <string name="age">年齡(age)</string>
     <string name="age_hint">（輸入年齡）</string>
     <string name="btn_ok">確定</string>
@@ -11,6 +11,8 @@
     <string name="find_couple">開始找對象。</string>
     <string name="male">male</string>
     <string name="female">female</string>
+    <string name="male_ch">男</string>
+    <string name="female_ch">女</string>
     <string name="input_error_sex">性別格式輸入錯誤，請重新輸入</string>
     <string name="input_error_age">年齡格式輸入錯誤，請重新輸入</string>
 
