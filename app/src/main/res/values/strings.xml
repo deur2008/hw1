@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HW#2:黃子洋</string>
+    <string name="app_name">作業三:黃子洋</string>
     <string name="sex">sex</string>
     <string name="sex_hint">（input your gender）</string>
     <string name="age">age</string>
