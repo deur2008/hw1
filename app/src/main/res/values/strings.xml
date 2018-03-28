@@ -1,19 +1,34 @@
 <resources>
     <string name="app_name">作業三:黃子洋</string>
-    <string name="sex">sex</string>
-    <string name="sex_hint">（input your gender）</string>
-    <string name="age">age</string>
-    <string name="age_hint">（input your age）</string>
-    <string name="btn_ok">confirm</string>
-    <string name="suggestion">suggestion：</string>
-    <string name="not_hurry">not hurry</string>
-    <string name="get_married">get married！</string>
-    <string name="find_couple">find a couple</string>
-    <string name="male">male</string>
-    <string name="female">female</string>
-    <string name="male_ch">男</string>
-    <string name="female_ch">女</string>
-    <string name="input_error_sex">sex format input error please, please try again</string>
-    <string name="input_error_age">age format input error please, please try again</string>
+    <string name="sex">性別</string>
+    <string name="spn_sex_list">請選擇性別</string>
+    <string-array name="sex_list">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string name="age">年齡</string>
+    <string name="below30">小於30歲</string>
+    <string name="between30to40">30~40歲</string>
+    <string name="over40">大於40歲</string>
+    <string name="below28">小於28歲</string>
+    <string name="between28to35">28~35歲</string>
+    <string name="over35">大於35歲</string>
+
+
+    <string name="family_member">家人數量</string>
+    <string name="family_text_default">預設為3</string>
+
+    <string name="suggestion">建議： </string>
+    <string name="btn_ok">確定</string>
+
+    <string name="male">男</string>
+    <string name="female">女</string>
+
+
+    <string name="input_error_age">請選擇年齡範圍</string>
+
+
+
 
 </resources>
