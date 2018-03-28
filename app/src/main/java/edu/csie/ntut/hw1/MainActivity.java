@@ -89,5 +89,5 @@ public class MainActivity extends AppCompatActivity {
             mTxtSug.setText(ms.getSuggestion(strSex, iAgeRange, mNumPkrFamily.getValue()));
         }
     };
-
+    //
 }

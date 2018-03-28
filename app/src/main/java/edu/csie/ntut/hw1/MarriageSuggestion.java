@@ -7,7 +7,7 @@ public class MarriageSuggestion {
 
     public String getSuggestion(String strSex, int iAgeRange, int numFamily) {
 
-        String strSug = "建議： ";
+        String strSug = "建議：";
         String get_married = "趕快結婚！";
         String find_couple = "開始找對象";
         String not_hurry = "還不急";

@@ -21,6 +21,9 @@
 
     <string name="suggestion">建議： </string>
     <string name="btn_ok">確定</string>
+    <string name="not_hurry">還不急</string>
+    <string name="get_married">趕快結婚！</string>
+    <string name="find_couple">開始找對象	</string>
 
     <string name="male">男</string>
     <string name="female">女</string>
