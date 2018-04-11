@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
     private RadioButton mRadBtnAgeRange2;
     private RadioButton mRadBtnAgeRange3;
     private TextView mTxtNumFamily;
-    private NumberPicker mNumPkrFamily;
     private Button mBtnOK;
     private TextView mTxtSug;
 
@@ -35,14 +34,9 @@ public class MainActivity extends AppCompatActivity {
         mRadBtnAgeRange2 = (RadioButton) findViewById(R.id.ageRange2);
         mRadBtnAgeRange3 = (RadioButton) findViewById(R.id.ageRange3);
         mTxtNumFamily = (TextView) findViewById(R.id.FamilyMemberText);
-        mNumPkrFamily = (NumberPicker) findViewById(R.id.NumberPicker);
-        mNumPkrFamily.setMinValue(1);
-        mNumPkrFamily.setMaxValue(20);
-        mNumPkrFamily.setValue(3);
         mBtnOK = (Button) findViewById(R.id.btnOK);
         mTxtSug = (TextView) findViewById(R.id.txtSug);
         mSpnSex.setOnItemSelectedListener(spnOnItemSelect);
-        mNumPkrFamily.setOnValueChangedListener(numPkrFamilyOnValueChange);
         mBtnOK.setOnClickListener(btnOkOnClick);
     }
 
@@ -86,7 +80,6 @@ public class MainActivity extends AppCompatActivity {
             else if (mRadGrp.getCheckedRadioButtonId()== R.id.ageRange2) iAgeRange = 2;
             else if (mRadGrp.getCheckedRadioButtonId()== R.id.ageRange3) iAgeRange = 3;
             else Toast.makeText(v.getContext(), getString(R.string.input_error_age), Toast.LENGTH_SHORT).show();
-            mTxtSug.setText(ms.getSuggestion(strSex, iAgeRange, mNumPkrFamily.getValue()));
         }
     };
     //

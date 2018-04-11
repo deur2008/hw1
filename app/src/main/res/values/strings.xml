@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">作業三:黃子洋</string>
+    <string name="app_name">作業四之一:黃子洋</string>
     <string name="sex">性別</string>
     <string name="spn_sex_list">請選擇性別</string>
     <string-array name="sex_list">

@@ -14,14 +14,24 @@
         android:text="@string/sex"
         android:textSize="25sp" />
 
-    <Spinner
-        android:id="@+id/spnSex"
+    <RadioGroup
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:entries="@array/sex_list"
-        android:prompt="@string/spn_sex_list"
-        android:spinnerMode="dialog"
-        />
+        android:layout_height="50dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/female" />
+    </RadioGroup>
 
     <TextView
         android:id="@+id/textView2"
@@ -29,34 +39,6 @@
         android:layout_height="wrap_content"
         android:text="@string/age"
         android:textSize="25sp" />
-
-    <RadioGroup
-        android:id="@+id/radGrpAge"
-        android:layout_width="match_parent"
-        android:layout_height="100dp">
-
-        <RadioButton
-            android:id="@+id/ageRange1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/below30" />
-
-        <RadioButton
-            android:id="@+id/ageRange2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/between30to40" />
-
-        <RadioButton
-            android:id="@+id/ageRange3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/over40" />
-
-    </RadioGroup>
 
     <TextView
         android:layout_width="match_parent"
@@ -70,11 +52,6 @@
         android:layout_height="wrap_content"
         android:text="@string/family_text_default"
         android:textSize="18sp" />
-
-    <NumberPicker
-        android:id="@+id/NumberPicker"
-        android:layout_width="match_parent"
-        android:layout_height="45dp" />
 
     <Button
         android:id="@+id/btnOK"
