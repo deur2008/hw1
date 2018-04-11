@@ -20,23 +20,25 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp" />
 
-    <TextView android:id="@+id/txtCom"
+    <TextView
+        android:id="@+id/txtMyPlay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/prompt_com_play"
-        android:layout_below="@id/txtTitle"
-        android:layout_alignLeft="@id/txtTitle"
-        android:textSize="20sp"
-        android:layout_marginBottom="20dp" />
-
-    <TextView android:id="@+id/txtMyPlay"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/prompt_my_play"
-        android:layout_below="@id/txtTitle"
         android:layout_alignRight="@id/txtTitle"
-        android:textSize="20sp"
-        android:layout_marginBottom="20dp" />
+        android:layout_below="@id/txtTitle"
+        android:layout_marginBottom="20dp"
+        android:text="@string/prompt_my_play"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtCom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/txtTitle"
+        android:layout_below="@id/txtTitle"
+        android:layout_marginBottom="20dp"
+        android:text="@string/prompt_com_play"
+        android:textSize="20sp" />
 
     <Button android:id="@+id/btnScissors"
         android:layout_width="wrap_content"

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\LeoHuang\\AndroidStudioProjects\\Unit018-PaperScissorsStoneGame\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sr\\values-sr.xml",
+            "outputFile": "C:\\Users\\LeoHuang\\AndroidStudioProjects\\hw4.2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sr\\values-sr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\LeoHuang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.3.0.aar\\cbddbc73a71932799804320fa36203d2\\res\\values-sr\\values-sr.xml",

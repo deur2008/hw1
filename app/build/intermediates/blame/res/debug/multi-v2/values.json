@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\LeoHuang\\AndroidStudioProjects\\Unit018-PaperScissorsStoneGame\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\LeoHuang\\AndroidStudioProjects\\hw4.2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\LeoHuang\\AndroidStudioProjects\\Unit018-PaperScissorsStoneGame\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "90,149",
-                        "endColumns": "57,55",
-                        "endOffsets": "143,200"
-                    },
-                    "to": {
-                        "startLines": "171,172",
-                        "startColumns": "4,4",
-                        "startOffsets": "25983,26041",
-                        "endColumns": "57,55",
-                        "endOffsets": "26036,26092"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\LeoHuang\\AndroidStudioProjects\\Unit018-PaperScissorsStoneGame\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\LeoHuang\\AndroidStudioProjects\\hw4.2\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "3,2,8,6,7,11,10,9,4,5,12,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,42 @@
                         "startOffsets": "28857,28910,28954,28995,29040,29082,29128,29177,29224,29274,29323,29370",
                         "endColumns": "52,43,40,44,41,45,48,46,49,48,46,40",
                         "endOffsets": "28905,28949,28990,29035,29077,29123,29172,29219,29269,29318,29365,29406"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\LeoHuang\\AndroidStudioProjects\\hw4.2\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "376"
+                    },
+                    "to": {
+                        "startLines": "232",
+                        "startColumns": "4",
+                        "startOffsets": "29834",
+                        "endLines": "237",
+                        "endColumns": "12",
+                        "endOffsets": "30148"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\LeoHuang\\AndroidStudioProjects\\hw4.2\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,57,105",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "198,99,151"
+                    },
+                    "to": {
+                        "startLines": "32,33,34",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "2186,2232,2279",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "2227,2274,2325"
                     }
                 },
                 {
@@ -57,39 +76,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\LeoHuang\\AndroidStudioProjects\\Unit018-PaperScissorsStoneGame\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\LeoHuang\\AndroidStudioProjects\\hw4.2\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "376"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "90,149",
+                        "endColumns": "57,55",
+                        "endOffsets": "143,200"
                     },
                     "to": {
-                        "startLines": "232",
-                        "startColumns": "4",
-                        "startOffsets": "29834",
-                        "endLines": "237",
-                        "endColumns": "12",
-                        "endOffsets": "30148"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\LeoHuang\\AndroidStudioProjects\\Unit018-PaperScissorsStoneGame\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "157,57,105",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "198,99,151"
-                    },
-                    "to": {
-                        "startLines": "32,33,34",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "2186,2232,2279",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "2227,2274,2325"
+                        "startLines": "171,172",
+                        "startColumns": "4,4",
+                        "startOffsets": "25983,26041",
+                        "endColumns": "57,55",
+                        "endOffsets": "26036,26092"
                     }
                 }
             ]
