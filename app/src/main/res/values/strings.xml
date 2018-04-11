@@ -7,6 +7,36 @@
         <item>女</item>
     </string-array>
 
+    <string-array name="male_age_list">
+        <item>小於30歲</item>
+        <item>30~40歲</item>
+        <item>大於40歲</item>
+    </string-array>
+
+    <string-array name="female_age_list">
+        <item>小於28歲</item>
+        <item>28~35歲</item>
+        <item>大於35歲</item>
+    </string-array>
+
+    <string name="hobby">興趣</string>
+    <string name="music">音樂 </string>
+    <string name="sing">唱歌 </string>
+    <string name="dance">跳舞 </string>
+    <string name="travel">旅行 </string>
+    <string name="reading">閱讀 </string>
+    <string name="writing">寫作 </string>
+    <string name="climbing">爬山 </string>
+    <string name="swim">游泳 </string>
+    <string name="eating">美食 </string>
+    <string name="drawing">繪畫 </string>
+    <string name="photo">攝影 </string>
+    <string name="Programing">程式設計 </string>
+    <string name="fishing">釣魚 </string>
+    <string name="jogging">跑步 </string>
+
+
+
     <string name="age">年齡</string>
     <string name="below30">小於30歲</string>
     <string name="between30to40">30~40歲</string>
@@ -20,6 +50,7 @@
     <string name="family_text_default">預設為3</string>
 
     <string name="suggestion">建議： </string>
+    <string name="my_hobby">興趣： </string>
     <string name="btn_ok">確定</string>
     <string name="not_hurry">還不急</string>
     <string name="get_married">趕快結婚！</string>
