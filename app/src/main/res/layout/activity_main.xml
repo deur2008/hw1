@@ -4,50 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="edu.csie.ntut.hw1.MainActivity">
+    android:orientation="horizontal"
+    android:gravity="center"
+    tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/sex"
-        android:textSize="25sp" />
+    <fragment
+        android:id="@+id/fragMain"
+        android:name="tw.edu.csie.ntut.hw6_103590054.MainFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
-    <EditText
-        android:id="@+id/edtSex"
-        android:layout_width="match_parent"
+    <FrameLayout
+        android:id="@+id/frameLay"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/sex_hint"
-        android:inputType="textPersonName" />
+        android:visibility="gone"/>
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/age"
-        android:textSize="25sp" />
-
-    <EditText
-        android:id="@+id/edtAge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/age_hint"
-        android:inputType="textPersonName" />
-
-    <Button
-        android:id="@+id/btnOK"
-        android:layout_width="117dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|center"
-        android:text="@string/btn_ok" />
-
-    <TextView
-        android:id="@+id/txtR"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/suggestion"
-        android:textSize="25sp" />
 </LinearLayout>

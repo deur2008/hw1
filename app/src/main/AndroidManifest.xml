@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.csie.ntut.hw1">
+    package="tw.edu.csie.ntut.hw6_103590054">
 
     <application
         android:allowBackup="true"
