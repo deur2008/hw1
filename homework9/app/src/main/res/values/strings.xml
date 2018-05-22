@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">"作業九: 黃子洋 </string>
+    <string name="title_activity_sub">SubActivity</string>
+
+    <string name="purchased_meal">項目：</string>
+    <string-array name="purchased_meal_list">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
+
+    <string name="purchased_date">日期：</string>
+
+    <string name="amount">金額：</string>
+
+    <string name="input_btn">輸入</string>
+    <string name="record_btn">記錄</string>
+    <string name="item">項目</string>
+
+    //錯誤指令
+    <string name="input_error">金額格式輸入錯誤，請輸入數字</string>
+
+    input_error
+</resources>
